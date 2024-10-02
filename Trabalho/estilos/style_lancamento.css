@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+}
+
+header img{
+   width: 201px;
+   height: 72px;
+   margin-left: 8px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+}
+header ul li :hover{
+    color: #ffffff;
+}
+
+/* MAIN CONTENT */
+main {
+    padding: 20px;
+}
+
+.countdown {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#countdown-timer {
+    font-size: 48px;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.product-features {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-features img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-features ul li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.pre-order {
+    text-align: center;
+}
+
+.pre-order form {
+    display: inline-block;
+    text-align: left;
+}
+
+.pre-order label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pre-order input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.pre-order button {
+    padding: 10px 20px;
+    background-color: #fe6666;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pre-order button:hover {
+    background-color: #ff4c4c;
+}

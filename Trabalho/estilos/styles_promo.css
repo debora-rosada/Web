@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+}
+
+header img{
+   width: 201px;
+   height: 72px;
+   margin-left: 8px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+}
+header ul li :hover{
+    color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: xxx-large;
+}
+
+.promo {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.promo-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.promo-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.promo-item h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.promo-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.promo-item .valor {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.promo-item .valor-original del {
+    color: red;
+}
+
+.promo-item .valor-desconto {
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+}
+
+.botao {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}

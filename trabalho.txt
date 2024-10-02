@@ -1,0 +1,32 @@
+Tema Bazar bandeirante
+
+1 home 15
+2 sobrenos 14
+3 junção do 1, 2, 5, 6, 11, 13
+4 notícia blog
+5 contato rodapé 
+6 fac perguntas rodapé
+7 login 
+8 compra de produto e 12, 13, 15
+9 lista de tarefa
+10 testeminhos/avaliação
+11 estrutura tipo site tipo arvore sumário 
+12 galeria de fotos
+13 promoções
+14 perfil de equipe
+15 lançamento
+
+1 home só ela ou juntar com e ex 15 11 dedé
+2 juntar com os ex 1, 3, 5, 6, 13, 14fer
+4 só ela lari
+7 só ela fer
+8 juntar 12, 13, 15 dedé
+9 só elalari
+10 só ela lari
+
+
+slide
+css
+html
+javascript
+getelement, 

@@ -1,0 +1,127 @@
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+    position: fixed; /* Fixar no topo */
+    top: 0; /* Alinhar ao topo */
+    width: 100%; /* Ocupa toda a largura da página */
+    z-index: 1000; /* Garantir que fique acima de outros elementos */
+}
+
+header img {
+    width: 201px;
+    height: 72px;
+    margin-left: 8px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+}
+
+header ul li:hover {
+    color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding-top: 100px; /* Adicionar padding para evitar sobreposição do conteúdo */
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-login {
+    background-color: #e15454a7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 500px rgba(22, 12, 12, 0.478);
+    max-width: 400px;
+    width: 100%;
+}
+
+.form-login h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-login label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a2a2a2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.form-login button:hover {
+    background-color: #e78c8c;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .form-login {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .form-login h2 {
+        font-size: 1.5em;
+    }
+
+    .form-login input {
+        font-size: 14px;
+    }
+
+    .form-login button {
+        font-size: 14px;
+    }
+}

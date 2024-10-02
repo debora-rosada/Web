@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+}
+
+header img{
+   width: 201px;
+   height: 72px;
+   margin-left: 8px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+}
+header ul li :hover{
+    color: #ffffff;
+}
+/*BODY*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #050505;
+}
+
+h1 {
+    margin: 20px;
+    color: #c71e1e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin: 0 8px;
+    margin-right: 10px;
+}
+
+label {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* Aplica a linha sobre a escrita quando o checkbox estiver marcado */
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.controle-tarefas {
+    margin: 0 8px;
+    margin-bottom: 20px;
+}
+
+input[type="texto"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+
+footer {
+    margin: 25px;
+    color: #ffffff;
+}

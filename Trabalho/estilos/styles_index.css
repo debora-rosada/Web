@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+}
+
+header img{
+   width: 201px;
+   height: 72px;
+   margin-left: 8px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+}
+header ul li :hover{
+    color: #ffffff;
+}
+
+/*Página*/
+.titulo_principal{
+    font-size: 80px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    background-image: url("/fotos/loja.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding: 359px;
+    text-align: center;
+    
+}
+
+.loja {
+    width: 100%;
+}

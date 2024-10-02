@@ -1,0 +1,117 @@
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header img {
+    width: 201px;
+    height: 72px;
+    margin-left: 8px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+    
+}
+header ul li :hover {
+    color: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 92px; /* Espaço para a barra de navegação fixa */
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230vh;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.categoria {
+    margin-bottom: 40px;
+}
+
+.categoria h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.produto-imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto-titulo {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.produto-descricao {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.produto-preco {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.produto-botao {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.produto-botao:hover {
+    background-color: #218838;
+}

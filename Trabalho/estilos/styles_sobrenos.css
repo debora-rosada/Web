@@ -1,0 +1,154 @@
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(114, 117, 136);
+    padding: 10px;
+}
+
+header img{
+   width: 201px;
+   height: 72px;
+   margin-left: 8px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-indent: 25px;
+}
+
+header ul li {
+    margin: 0 8px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fe6666;
+}
+header ul li :hover{
+    color: #ffffff;
+}
+
+/* Estilizações globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Seção Perfil da Loja */
+.perfil {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+}
+
+.perfil a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Seção de Equipe */
+.equipe {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.mebros-equipe {
+    flex: 1 1 20%;
+    text-align: center;
+}
+
+.mebros-equipe img {
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+}
+
+/* Grade de Imagens */
+.nosso-local {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0;
+    margin: 20px;
+}
+
+.nosso-local img {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+
+.nosso-local div {
+    text-align: center;
+}
+
+/* Seção de Contato */
+.contato {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contato form {
+    display: inline-block;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Seção FAQ */
+.faq {
+    margin: 40px;
+}
+
+.faq h2 {
+    margin-bottom: 20px;
+}
+
+.faq ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq ul li {
+    margin-bottom: 15px;
+}
+
+.faq ul li p {
+    margin: 5px 0;
+    font-weight: bold;
+}
